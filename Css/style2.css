@@ -1,0 +1,150 @@
+body {
+    background-color: #E9EEF6;
+    color: #2C2C2C;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3A5BA0;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #F5F7FA;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #4B7BEC;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+article {
+    background-color: #F5F7FA;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 250px;
+}
+
+article img {
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+
+.project-links table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 700px;
+}
+
+table {
+    width: 90%;
+    margin: 2rem auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    background-color: #F5F7FA;
+    color: #2C2C2C;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #3A5BA0;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) td {
+    background-color: #E9EEF6;
+}
+
+tr:hover td {
+    background-color: #D6E4F0;
+    transition: background-color 0.3s ease;
+}
+
+table a {
+    color: #4B7BEC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #4B7BEC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #B0C4DE;
+    color: #2C2C2C;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+footer section {
+    margin: 1rem 0;
+}
+
+footer a {
+    color: #4B7BEC;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
