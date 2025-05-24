@@ -1,45 +1,90 @@
 <!DOCTYPE html>
+<!-- Indica que el documento es HTML5 -->
+
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../Css/style3.css">
-        <title>Contact</title>
-    </head>
-    <body>
-        <h1>Diego Zuluaga - Riwi Developer</h1>
+<!-- Establece que el idioma principal del contenido es español -->
 
-        <header>
-            <nav>
-                <a href="../index.html">About Me</a>
-                <a href="../Html/projects.html">Projects</a>
-                <a href="../Html/contact.html">Contact</a>
-            </nav>
-        </header>
+<head>
+    <!-- Sección de metadatos y configuración del sitio -->
+    <meta charset="UTF-8">
+    <!-- Codificación de caracteres: permite mostrar tildes, eñes, etc. correctamente -->
 
-        <main>
-            <h2>Contact</h2>
-            <section>
-                <form action="/send" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="4" required></textarea>
-                    <input type="submit" value="send">
-                </form>
-            </section>
-        </main>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el diseño sea adaptable a pantallas pequeñas (como móviles) -->
 
-        <footer>
-            <p>Redes sociales:</p>
-            <section>
-                <a href="https://github.com/alejo11102001" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/diego-alejandro-zuluaga-yepes-78279a338" target="_blank">Linkedin</a>
-                <a href="mailto:diego.zuluagaye@amigo.edu.co" target="_blank">Email</a>
-            </section>
-            <p>&copy; 2025 Diego Zuluaga. Todos los derechos reservados.</p>
-        </footer>
-    </body>
+    <link rel="stylesheet" href="../Css/style3.css">
+    <!-- Enlace a la hoja de estilos CSS externa -->
+
+    <title>Contact</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+</head>
+
+<body>
+    <!-- Todo lo que se muestra en la página va dentro del body -->
+
+    <h1>Diego Zuluaga - Riwi Developer</h1>
+    <!-- Título principal de la página -->
+
+    <header>
+        <!-- Encabezado del sitio con la navegación principal -->
+
+        <nav>
+            <!-- Menú de navegación con enlaces a otras páginas -->
+            <a href="../index.html">About Me</a>
+            <a href="../Html/projects.html">Projects</a>
+            <a href="../Html/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido principal de la página -->
+
+        <h2>Contact</h2>
+        <!-- Título de la sección de contacto -->
+
+        <section>
+            <!-- Contenedor del formulario de contacto -->
+
+            <form action="/send" method="post">
+                <!-- Formulario que enviará los datos mediante POST a la ruta /send -->
+
+                <label for="name">Name:</label>
+                <!-- Etiqueta para el campo nombre -->
+                <input type="text" id="name" name="name" required>
+                <!-- Campo de texto para ingresar el nombre (obligatorio) -->
+
+                <label for="email">Email:</label>
+                <!-- Etiqueta para el campo email -->
+                <input type="email" id="email" name="email" required>
+                <!-- Campo para ingresar un correo (obligatorio y con validación de formato) -->
+
+                <label for="message">Message</label>
+                <!-- Etiqueta para el mensaje -->
+                <textarea name="message" id="message" rows="4" required></textarea>
+                <!-- Área de texto para escribir el mensaje (obligatoria) -->
+
+                <input type="submit" value="send">
+                <!-- Botón para enviar el formulario -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página con información adicional -->
+
+        <p>Redes sociales:</p>
+        <!-- Texto indicando los enlaces a redes sociales -->
+
+        <section>
+            <!-- Sección con los enlaces -->
+            <a href="https://github.com/alejo11102001" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/diego-alejandro-zuluaga-yepes-78279a338" target="_blank">Linkedin</a>
+            <a href="mailto:diego.zuluagaye@amigo.edu.co" target="_blank">Email</a>
+            <!-- Enlaces que se abren en nueva pestaña -->
+        </section>
+
+        <p>&copy; 2025 Diego Zuluaga. Todos los derechos reservados.</p>
+        <!-- Mensaje de derechos de autor -->
+    </footer>
+</body>
 </html>
