@@ -1,150 +1,149 @@
 body {
-    background-color: #E9EEF6;
-    color: #2C2C2C;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #E9EEF6; /* Fondo claro para toda la página */
+    color: #2C2C2C; /* Color del texto general */
+    font-family: 'Segoe UI', sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina los márgenes por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
 }
 
 header {
-    background-color: #3A5BA0;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    background-color: #3A5BA0; /* Color azul del encabezado */
+    color: white; /* Texto en blanco */
+    padding: 1rem; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
 }
 
 header nav a {
-    text-decoration: none;
-    color: #F5F7FA;
-    font-weight: bold;
-    padding: 8px 12px;
-    margin: 0 10px;
-    transition: background-color 0.3s ease;
+    text-decoration: none; /* Sin subrayado en enlaces */
+    color: #F5F7FA; /* Color claro para el texto del enlace */
+    font-weight: bold; /* Texto en negrita */
+    padding: 8px 12px; /* Espacio interno del enlace */
+    margin: 0 10px; /* Espacio entre enlaces */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
 }
 
 header nav a:hover {
-    background-color: #4B7BEC;
-    border-radius: 5px;
+    background-color: #4B7BEC; /* Cambia color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados al pasar el mouse */
 }
 
 main {
-    padding: 2rem;
-    text-align: center;
+    padding: 2rem; /* Espacio interno */
+    text-align: center; /* Centra el texto */
 }
 
 h1 {
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-bottom: 2rem; /* Espacio debajo del título */
+    text-align: center; /* Centra el título */
 }
 
 h2 {
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-bottom: 2rem; /* Espacio debajo del subtítulo */
+    text-align: center; /* Centra el subtítulo */
 }
 
 .projects {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin-bottom: 2rem;
+    display: flex; /* Usa el modelo flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 2rem; /* Espacio entre proyectos */
+    flex-wrap: wrap; /* Permite que los proyectos bajen si no caben */
+    margin-bottom: 2rem; /* Espacio debajo de la sección */
 }
 
 article {
-    background-color: #F5F7FA;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 250px;
+    background-color: #F5F7FA; /* Fondo claro para cada proyecto */
+    padding: 1rem; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo del artículo */
 }
 
 article img {
-    margin-top: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    margin-top: 1rem; /* Espacio encima de la imagen */
+    border-radius: 8px; /* Bordes redondeados en la imagen */
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2); /* Sombra para la imagen */
 }
 
 .project-links table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 80%;
-    max-width: 700px;
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Elimina el espacio entre bordes de celdas */
+    width: 80%; /* Ancho de la tabla */
+    max-width: 700px; /* Ancho máximo */
 }
 
 table {
-    width: 90%;
-    margin: 2rem auto;
-    border-collapse: separate;
-    border-spacing: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    overflow: hidden;
-    font-family: 'Segoe UI', sans-serif;
+    width: 90%; /* Ancho del 90% del contenedor */
+    margin: 2rem auto; /* Espacio vertical y centrado horizontalmente */
+    border-collapse: separate; /* Mantiene separación entre bordes de celdas */
+    border-spacing: 0; /* Sin espacio entre celdas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 12px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento */
+    font-family: 'Segoe UI', sans-serif; /* Fuente de la tabla */
 }
 
 th, td {
-    padding: 1rem;
-    text-align: center;
-    background-color: #F5F7FA;
-    color: #2C2C2C;
-    font-size: 1rem;
+    padding: 1rem; /* Espacio interno en celdas */
+    text-align: center; /* Centra el texto */
+    background-color: #F5F7FA; /* Fondo claro de celdas */
+    color: #2C2C2C; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente estándar */
 }
 
 th {
-    background-color: #3A5BA0;
-    color: white;
-    font-weight: bold;
+    background-color: #3A5BA0; /* Fondo azul para encabezados */
+    color: white; /* Texto blanco */
+    font-weight: bold; /* Negrita */
 }
 
 tr:nth-child(even) td {
-    background-color: #E9EEF6;
+    background-color: #E9EEF6; /* Alterna color de fondo en filas pares */
 }
 
 tr:hover td {
-    background-color: #D6E4F0;
-    transition: background-color 0.3s ease;
+    background-color: #D6E4F0; /* Cambia color al pasar el mouse por una fila */
+    transition: background-color 0.3s ease; /* Suaviza el cambio */
 }
 
 table a {
-    color: #4B7BEC;
-    text-decoration: none;
-    font-weight: bold;
+    color: #4B7BEC; /* Color azul para enlaces dentro de la tabla */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
 }
 
 table a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }
 
 a {
-    color: #4B7BEC;
-    text-decoration: none;
+    color: #4B7BEC; /* Color azul para todos los enlaces */
+    text-decoration: none; /* Sin subrayado por defecto */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }
 
 footer {
-    background-color: #B0C4DE;
-    color: #2C2C2C;
-    padding: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 1rem;
+    background-color: #B0C4DE; /* Fondo claro para el pie de página */
+    color: #2C2C2C; /* Color del texto */
+    padding: 2rem; /* Espacio interno */
+    text-align: center; /* Centra el contenido */
+    margin-top: 2rem; /* Espacio por encima del pie */
+    font-size: 1rem; /* Tamaño estándar del texto */
 }
 
 footer section {
-    margin: 1rem 0;
+    margin: 1rem 0; /* Espacio vertical entre secciones del pie */
 }
 
 footer a {
-    color: #4B7BEC;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: bold;
+    color: #4B7BEC; /* Color azul de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 1rem; /* Espacio entre enlaces */
+    font-weight: bold; /* Texto en negrita */
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }
-
